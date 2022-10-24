@@ -14,7 +14,7 @@ data = pandas.read_excel("file.xlsx", sheet_name=0)
 lat = list(data["Latitude"])
 lon = list(data["Longitude"])
 city_name = list(data["Name"])
-
+colors = ["red"]
 
     
 
